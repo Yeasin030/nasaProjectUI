@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NASA+ | Explore the Universe</title>
+  <meta name="description" content="Discover hundreds of videos and live content on NASA+.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white">
+  <header>
+    <div class="bg-black border-bottom border-secondary">
+      <div class="container-fluid px-4 py-2 d-flex justify-content-between align-items-center small">
+        <span class="text-white-50">National Aeronautics and Space Administration</span>
+        <div class="d-flex gap-3"><a class="link-light text-decoration-none" href="index.html#news">News</a><a class="link-light text-decoration-none" href="index.html#images">Images</a><a class="link-light text-decoration-none" href="index.html#footer">About NASA</a></div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top" aria-label="NASA+ navigation">
+      <div class="container-fluid px-4 py-2">
+        <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="index.html#top"><span class="rounded-circle border border-2 border-white d-inline-flex align-items-center justify-content-center" style="width: 42px; height: 42px; letter-spacing: -2px;">NASA</span><span class="d-none d-sm-inline">NASA</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#plusNav" aria-controls="plusNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="plusNav">
+          <ul class="navbar-nav ms-lg-5 me-auto mb-2 mb-lg-0 gap-lg-3">
+            <li class="nav-item"><a class="nav-link active" href="nasa-plus.html" aria-current="page">NASA+</a></li>
+            <li class="nav-item"><a class="nav-link" href="#live">Live &amp; Upcoming</a></li>
+            <li class="nav-item"><a class="nav-link" href="#topics">Topics</a></li>
+            <li class="nav-item"><a class="nav-link" href="#series">Series</a></li>
+          </ul>
+          <a class="btn btn-outline-light rounded-0 px-4" href="index.html">Back to NASA.gov <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container-fluid px-0 bg-dark">
+      <div class="ratio ratio-21x9 position-relative overflow-hidden">
+        <img src="https://images-assets.nasa.gov/image/art002e015231/art002e015231~large.jpg?w=1800&h=900&fit=crop&crop=faces%2Cfocalpoint" class="object-fit-cover" alt="Astronaut working in space">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-gradient bg-dark opacity-50"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-end">
+          <div class="container-fluid px-4 px-md-5 pb-4 pb-md-5">
+            <span class="badge text-bg-danger rounded-0 text-uppercase mb-3">NASA+</span>
+            <h1 class="display-2 fw-bold col-xl-7 mb-3">Explore NASA+</h1>
+            <p class="lead text-white-50 col-lg-6 mb-4">NASA’s grand return to the lunar surface is underway. Watch the latest and see how Moon Base takes shape.</p>
+            <a class="btn btn-light btn-lg rounded-0 px-4" href="#featured">Watch now <span aria-hidden="true">▶</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid px-4 px-md-5 py-5" id="live">
+      <div class="d-flex justify-content-between align-items-end border-bottom border-secondary pb-3 mb-4"><div><p class="text-warning text-uppercase fw-bold small mb-1">Watch what’s happening</p><h2 class="display-6 fw-bold mb-0">Live &amp; upcoming events</h2></div><a class="link-light fw-semibold d-none d-sm-inline" href="#live">View schedule →</a></div>
+      <div class="row g-4">
+        <div class="col-lg-7"><div class="card bg-dark text-white border-secondary rounded-0 h-100"><div class="ratio ratio-16x9"><img src="https://images-assets.nasa.gov/image/AFRC2026-0146-13/AFRC2026-0146-13~large.jpg?w=1200&h=700&fit=crop" class="card-img object-fit-cover" alt="NASA aircraft in flight"><div class="card-img-overlay d-flex align-items-end bg-dark bg-opacity-50"><div><span class="badge text-bg-danger rounded-0 mb-2">Live soon</span><h3 class="h2 fw-bold mb-1">NASA Live: Mission coverage</h3><p class="mb-0 text-white-50">Join NASA experts for live coverage, updates, and conversations from across the agency.</p></div></div></div><div class="card-body d-flex justify-content-between align-items-center"><span class="text-white-50">Today · NASA TV</span><a class="btn btn-outline-light rounded-0" href="#live">Set reminder</a></div></div></div>
+        <div class="col-lg-5"><div class="bg-danger h-100 p-4 p-md-5 d-flex flex-column justify-content-center"><p class="text-uppercase fw-bold small mb-2">Anytime, anywhere</p><h3 class="display-6 fw-bold">The universe is always on.</h3><p class="mb-4">Stream NASA+ on the web and in the NASA App with no subscription required.</p><a class="btn btn-dark rounded-0 align-self-start px-4" href="#featured">Start watching →</a></div></div>
+      </div>
+    </section>
+
+    <section class="bg-dark py-5" id="featured">
+      <div class="container-fluid px-4 px-md-5"><div class="d-flex justify-content-between align-items-end border-bottom border-secondary pb-3 mb-4"><div><p class="text-warning text-uppercase fw-bold small mb-1">Fresh from NASA+</p><h2 class="display-6 fw-bold mb-0">Explore new releases</h2></div><a class="link-light fw-semibold d-none d-sm-inline" href="#featured">See all →</a></div><div class="row g-4">
+        <article class="col-sm-6 col-lg-3"><a class="text-white text-decoration-none d-block" href="#featured"><div class="position-relative"><img src="https://images-assets.nasa.gov/image/as11-40-5875/as11-40-5875~large.jpg?w=800&h=500&fit=crop" class="img-fluid w-100 object-fit-cover" style="height: 220px;" alt="The Moon photographed from space"><span class="position-absolute bottom-0 start-0 badge text-bg-danger rounded-0 m-3">ARTEMIS</span></div><h3 class="h4 fw-bold mt-3">Moonbound: For All Humanity</h3><p class="text-white-50 mb-0">Follow the people and missions returning to the Moon.</p></a></article>
+        <article class="col-sm-6 col-lg-3"><a class="text-white text-decoration-none d-block" href="#featured"><div class="position-relative"><img src="https://images-assets.nasa.gov/image/PIA12348/PIA12348~large.jpg?w=800&h=500&fit=crop" class="img-fluid w-100 object-fit-cover" style="height: 220px;" alt="A colorful nebula in deep space"><span class="position-absolute bottom-0 start-0 badge text-bg-danger rounded-0 m-3">THE UNIVERSE</span></div><h3 class="h4 fw-bold mt-3">Cosmic Dawn</h3><p class="text-white-50 mb-0">Look back to the beginning of everything we know.</p></a></article>
+        <article class="col-sm-6 col-lg-3"><a class="text-white text-decoration-none d-block" href="#featured"><div class="position-relative"><img src="https://images-assets.nasa.gov/image/AFRC2026-0146-13/AFRC2026-0146-13~large.jpg?w=800&h=500&fit=crop" class="img-fluid w-100 object-fit-cover" style="height: 220px;" alt="NASA aircraft flying through the sky"><span class="position-absolute bottom-0 start-0 badge text-bg-danger rounded-0 m-3">AERONAUTICS</span></div><h3 class="h4 fw-bold mt-3">X-59 Goes Supersonic</h3><p class="text-white-50 mb-0">Meet the aircraft changing the sound of flight.</p></a></article>
+        <article class="col-sm-6 col-lg-3"><a class="text-white text-decoration-none d-block" href="#featured"><div class="position-relative"><img src="https://images-assets.nasa.gov/image/art002e015231/art002e015231~large.jpg?w=800&h=500&fit=crop" class="img-fluid w-100 object-fit-cover" style="height: 220px;" alt="Astronaut working in space"><span class="position-absolute bottom-0 start-0 badge text-bg-danger rounded-0 m-3">STEM</span></div><h3 class="h4 fw-bold mt-3">Far Out</h3><p class="text-white-50 mb-0">Big questions, bold experiments, and life beyond Earth.</p></a></article>
+      </div></div>
+    </section>
+
+    <section class="container-fluid px-4 px-md-5 py-5" id="topics"><div class="d-flex justify-content-between align-items-end border-bottom border-secondary pb-3 mb-4"><div><p class="text-warning text-uppercase fw-bold small mb-1">Find your orbit</p><h2 class="display-6 fw-bold mb-0">Explore by topic</h2></div></div><div class="row g-2"><div class="col-6 col-md-3"><a class="btn btn-outline-light rounded-0 w-100 text-start p-3" href="#topics">Humans in Space <span class="float-end">→</span></a></div><div class="col-6 col-md-3"><a class="btn btn-outline-light rounded-0 w-100 text-start p-3" href="#topics">Earth <span class="float-end">→</span></a></div><div class="col-6 col-md-3"><a class="btn btn-outline-light rounded-0 w-100 text-start p-3" href="#topics">Solar System <span class="float-end">→</span></a></div><div class="col-6 col-md-3"><a class="btn btn-outline-light rounded-0 w-100 text-start p-3" href="#topics">The Universe <span class="float-end">→</span></a></div><div class="col-6 col-md-3"><a class="btn btn-outline-light rounded-0 w-100 text-start p-3" href="#topics">Aeronautics <span class="float-end">→</span></a></div><div class="col-6 col-md-3"><a class="btn btn-outline-light rounded-0 w-100 text-start p-3" href="#topics">Technology <span class="float-end">→</span></a></div><div class="col-6 col-md-3"><a class="btn btn-outline-light rounded-0 w-100 text-start p-3" href="#topics">Kids <span class="float-end">→</span></a></div><div class="col-6 col-md-3"><a class="btn btn-outline-light rounded-0 w-100 text-start p-3" href="#topics">Documentaries <span class="float-end">→</span></a></div></div></section>
+
+    <section class="bg-danger py-5" id="series"><div class="container-fluid px-4 px-md-5"><div class="row align-items-center g-4"><div class="col-lg-7"><p class="text-uppercase fw-bold small mb-2">NASA Series</p><h2 class="display-5 fw-bold">The universe at your fingertips.</h2><p class="lead mb-0">Go deeper with original shows, documentaries, and stories from the people who explore the unknown.</p></div><div class="col-lg-5"><div class="row g-2"><div class="col-6"><div class="bg-black p-3 h-100"><span class="text-white-50 small">2 episodes</span><h3 class="h4 mb-0 mt-4">Moonbound</h3></div></div><div class="col-6"><div class="bg-black p-3 h-100"><span class="text-white-50 small">4 episodes</span><h3 class="h4 mb-0 mt-4">Our Alien Earth</h3></div></div></div></div></div></div></section>
+  </main>
+
+  <footer class="bg-black text-white pt-5 pb-4"><div class="container-fluid px-4 px-md-5"><div class="row g-5 pb-5"><div class="col-lg-5"><div class="d-flex align-items-center gap-3 mb-3"><span class="rounded-circle border border-2 border-white d-inline-flex align-items-center justify-content-center" style="width: 48px; height: 48px; letter-spacing: -2px;">NASA</span><span class="h5 mb-0">NASA+</span></div><p class="text-white-50 col-md-8">Discover hundreds of videos and live content from NASA, on the web and in the NASA App.</p><a class="link-light fw-semibold" href="index.html#footer">About NASA’s mission →</a></div><div class="col-6 col-lg-2"><h2 class="h6 text-uppercase text-white-50 mb-3">NASA+</h2><ul class="list-unstyled d-grid gap-2"><li><a class="link-light text-decoration-none" href="#live">Live events</a></li><li><a class="link-light text-decoration-none" href="#featured">New releases</a></li><li><a class="link-light text-decoration-none" href="#series">Series</a></li><li><a class="link-light text-decoration-none" href="#topics">Topics</a></li></ul></div><div class="col-6 col-lg-2"><h2 class="h6 text-uppercase text-white-50 mb-3">NASA.gov</h2><ul class="list-unstyled d-grid gap-2"><li><a class="link-light text-decoration-none" href="index.html">Home</a></li><li><a class="link-light text-decoration-none" href="2026-news-releases.html">News</a></li><li><a class="link-light text-decoration-none" href="index.html#missions">Missions</a></li><li><a class="link-light text-decoration-none" href="index.html#images">Images</a></li></ul></div><div class="col-lg-3"><h2 class="h6 text-uppercase text-white-50 mb-3">Get the NASA App</h2><p class="text-white-50 small">Watch NASA+ wherever you explore.</p><a class="btn btn-outline-light rounded-0" href="#footer">Learn more →</a></div></div><div class="border-top border-secondary pt-3 d-flex flex-column flex-md-row justify-content-between gap-2 small text-white-50"><span>National Aeronautics and Space Administration</span><span>Privacy Policy · Accessibility · Contact NASA</span></div></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
